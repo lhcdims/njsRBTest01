@@ -1,0 +1,8 @@
+{
+  "name": "raspbian-test-01-led",
+  "version": "1.0.0",
+  "description": "My first Rasbian Program",
+  "dependencies": {
+    "rpio": "^0.9.23"
+  }
+}
