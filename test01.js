@@ -1,4 +1,4 @@
-var rbCode = "0000";
+var rbCode = "ken";
 
 var Robot = require('./robot');
 
