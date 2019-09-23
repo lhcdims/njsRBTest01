@@ -7,8 +7,8 @@ class Robot {
     }
 
     funInit() {
-        this.aryMotor.push({strLR: "L", intDir: 1, intPin0: 12, intPin1: 16});  
-        this.aryMotor.push({strLR: "R", intDir: -1, intPin0: 18, intPin1: 22});   
+        this.aryMotor.push({strLR: "R", intDir: 1, intPin0: 12, intPin1: 16});  
+        this.aryMotor.push({strLR: "L", intDir: -1, intPin0: 18, intPin1: 22});   
 
         for (let i = 0; i < this.intNoOfMotor; i++) {
             rpio.open(this.aryMotor[i].intPin0, rpio.OUTPUT, rpio.LOW);
